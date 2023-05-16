@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+@layer base {
+  .text-edge-outline {
+    -webkit-text-stroke: 1px rgb(154, 39, 207);
+  }
+}
+
+body, input, button {
+  font-family: 'Helvetica', serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+.css-gjf0f1,
+.css-1eegd2p {
+  background-color: #ff3fc5c0 !important;
+}
+
+#tituloPg{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  color: white;
+  font-weight: 500;
+}
+
+#navIdApp{
+  background-color: #810446;
+  padding: 10pt;
+  color: white;
+}
